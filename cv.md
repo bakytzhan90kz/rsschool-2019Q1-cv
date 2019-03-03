@@ -56,6 +56,6 @@ Computer Science
 - GPA: 3.5
 
 
-##English Language Proficiency
+## English Language Proficiency
 ```Native or bilingual```
 * Advanced English Language Courses - `Fall 2009 - Fall 2010`
