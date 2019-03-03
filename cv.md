@@ -1,23 +1,61 @@
 
+# Bakytzhan Kudebayev
+
+## Contacts
+* +77779777390
+* [bakytzhan90kz@gmail.com](mailto:bakytzhan90kz@gmail.com)
 
 
+## Summary
+Software Developer in delivering Web-based applications. Having a solid understanding of Object-Oriented Design Principles and architecture of integration solutions. Have a good analytical skills valuable in any software development environment, keen learner.
 
 
+## Technical Skills
+* Programming Languages: C#, C, JavaScript
+* Databases: MS SQL, MySQL, Oracle
+* Frameworks: ASP.NET, Angular
+* Version Control: Git
+* Methodology: Agile
 
-Что должно содержать в себе резюме Junior разработчика?
- 
-! Важно: по-возможности составлять резюме на английском
 
-1. Имя, фамилия (реальные)
-2. Контакты (желательно несколько)
-3. Summary (цель, пожелания, раскрыть, что важно, что хочется и почему. 
-Некий вариант самопрезентации. Когда опыта минимум, джун продает свой потенциал, 
-свое желание и способность быстро учиться. Не занимать позицию, что он придет, 
-и все кинутся его учить. Но обратное – у джуна время все брать, отовсюду, всегда и т.д.).
-4. Skills (например: языки программирования, фреймворки, методологии, системы контроля версий, тулы...)
-5. Примеры кода (по возможности СВЕЖИЕ)
-6. Опыт (Junior-у имеет смысл указать весь опыт: тестовые задания, проекты с курсов,
-фрилансовые проекты – все, где он применял вышеупомянутые скилы. 
-Круто, если это будет со ссылками на код)
-7. Образование (в т.ч. курсы, семинары, лекции, онлайн-обучение)
-8. Уровень английского (тут стоит указать, какая именно практика была, как долго и т.д.) 
+## Code Examples
+This code was used in checking if any given two strings are valid anagram or not.
+```javascript
+var isAnagram = function(s, t) {
+    //create counter for first string
+    if(s.length!=t.length) return false;
+    let lettersCount = {};
+    
+    for(let c of s){
+        lettersCount[c] = ++lettersCount[c] || 1;    
+    }
+    
+    //check second string with counter
+    for(let c of t){
+        if(!lettersCount[c]) return false;
+        lettersCount[c] = --lettersCount[c];   
+    }
+    
+    return true;
+};
+```
+
+
+## Experience
+### Software Developer | Chipsoft `2014 October - Present`
+* Designing and developing web applications
+* Designing and implementing web services
+* Writing technical documentation
+
+
+## Education
+### Purdue University, West Lafayette, IN `Fall 2010 - Spring 2014 `
+```
+Computer Science
+```
+- GPA: 3.5
+
+
+##English Language Proficiency
+```Native or bilingual```
+* Advanced English Language Courses - `Fall 2009 - Fall 2010`
