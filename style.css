@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+.header{
+    display: flex;
+}
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+   .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    
+  }
+  
+   .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .profileImg {
+      background-image: url("profile.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 150px;
+      width: 100%;
+  }
+
+ .contacts {
+     padding-left: 10px;
+ }
+ 
+ .ico_frs {
+    color: #2eb398;
+
+ }
+
+ .techSkills {
+    padding-left: 10px;
+    margin-top:50px;
+ }
+
+ .techSkills ul {
+     list-style: none;
+     margin-left: -35px;
+     margin-top: -15px;
+ }
+
+.smallRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.years {
+    flex:40%;
+    padding: 10px;
+}
+.info {
+    flex:60%;
+    padding-left: 30px;
+    margin-top:-20px;
+}
+
