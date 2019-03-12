@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <title>CV</title>
+</head>
+<body>
+        <div class="container">
+                <div class="header">
+                        <h1>Bakytzhan Kudebayev</h1>
+                </div>
+                <div class="row">
+                    <div class="side">
+                        <div class="profileImg"></div>
+                        <div class="contacts">
+                                <p><span class="ico_frs"><i class="fa fa-map-marker"></i></span> Astana, Kazakhstan</p>
+                                <p><span class="ico_frs"><i class="fa fa-phone"></i></span> +777797773905</p>
+                                <p><span class="ico_frs"><i class="fa fa-envelope"></i></span> <a href="mailto:bakytzhan90kz@gmail.com">bakytzhan90kz@gmail.com</a></p>
+                        </div>
+                        <div class="techSkills">
+                            <h2>Technical Skills</h2>
+                            <ul>
+                                <li><strong>Programming Languages: </strong><em>C#, C, JavaScript</em></li>
+                                <li><strong>Databases: </strong><em>MS SQL, MySQL, Oracle</em></li>
+                                <li><strong>Frameworks: </strong><em>ASP.NET, Angular</em></li>
+                                <li><strong>Version Control: </strong><em>Git</em></li>
+                                <li><strong>Methodology: </strong><em>Agile</em></li>
+                            </ul>
+                        </div>
+                 </div>
+                <div class="main">
+                        <section>
+                            <h2>Summary</h2>
+                            <p>Software Developer in delivering Web-based applications. Having a solid understanding of Object-Oriented Design Principles and architecture of integration solutions. Have a good analytical skills valuable in any software development environment, keen learner.</p>
+                        </section>
+                        <hr>
+                        <section>
+                                <h2>Experience</h2>
+                                <div class="smallRow">
+                                        <div class="year">
+                                            <em>2014 October - Present</em>
+                                        </div>
+                                        <div class="info">
+                                            <h3>Software Developer</h3>
+                                            <em>Chipsoft</em>
+                                        </div>
+                                </div>
+                         </section>
+                        <hr>
+                        <section>
+                            <h2>Education</h2>
+                            <div class="smallRow">
+                                <div class="year">
+                                    <em>Fall 2010 - Spring 2014</em>
+                                </div>
+                                <div class="info">
+                                    <h3>Computer Science</h3>
+                                    <em>Purdue University, West Lafayette, IN</em>
+                                    <p>GPA: 3.5</p>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <section>
+                            <h2>English Language Proficiency</h2>
+                            <div class="smallRow">
+                                    <div class="year">
+                                        <em>Fall 2009 - Fall 2010</em>
+                                    </div>
+                                    <div class="info">
+                                        <h3>Advanced English Language Courses</h3>
+                                        <em>Level: Native or bilingual</em>
+                                    </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <section>
+                            <h2>Code Examples</h2>
+                            <p>This code was used in checking if any given two strings are valid anagram or not.</p>
+                            <p>
+                                <em>
+                                    var isAnagram = function(s, t) { <br>
+                                        //create counter for first string <br>
+                                        if(s.length!=t.length) return false;<br>
+                                        let lettersCount = {}; <br>
+                                        
+                                        for(let c of s){<br>
+                                            lettersCount[c] = ++lettersCount[c] || 1;    <br>
+                                        } <br>
+                                        
+                                        //check second string with counter <br>
+                                        for(let c of t){ <br>
+                                            if(!lettersCount[c]) return false; <br>
+                                            lettersCount[c] = --lettersCount[c];   <br>
+                                        } <br>
+                                        
+                                        return true; <br>
+                                </em>
+                            </p>
+                        </section>
+                    
+                    </div>
+        </div>
+        
+</body>
+</html>
