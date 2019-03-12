@@ -7,6 +7,9 @@
     margin: 0;
   }
 
+  section{
+      padding: 10px;
+  }
   .container {
     width: 1024px;
     margin: 0 auto;
