@@ -31,5 +31,48 @@
             <li><strong>Methodology: </strong><em>Agile</em></li>
         </ul>
     </section>
+
+    <section>
+        <h2>Code Examples</h2>
+        <p>This code was used in checking if any given two strings are valid anagram or not.</p>
+        <p>
+            <em>
+                var isAnagram = function(s, t) { <br>
+                    //create counter for first string <br>
+                    if(s.length!=t.length) return false;<br>
+                    let lettersCount = {}; <br>
+                    
+                    for(let c of s){<br>
+                        lettersCount[c] = ++lettersCount[c] || 1;    <br>
+                    } <br>
+                    
+                    //check second string with counter <br>
+                    for(let c of t){ <br>
+                        if(!lettersCount[c]) return false; <br>
+                        lettersCount[c] = --lettersCount[c];   <br>
+                    } <br>
+                    
+                    return true; <br>
+            </em>
+        </p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <h3>Software Developer | Chipsoft `2014 October - Present`</h3>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <h3>Purdue University, West Lafayette, IN `Fall 2010 - Spring 2014 `</h3>
+        <p>Major: Computer Science</p>
+        <p>GPA: 3.5</p>
+    </section>
+
+    <section>
+        <h2>English Language Proficiency</h2>
+        <p>Native or bilingual</p>
+        <p>Advanced English Language Courses - Fall 2009 - Fall 2010</p>
+    </section>
 </body>
 </html>
